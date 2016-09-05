@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0DC6A82E-89FF-40D7-8AF6-D10E3224D399}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="C5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutonomousVehicle.cs" />
+    <Compile Include="FollowDirection.cs" />
+    <Compile Include="IRadarReceiver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radar.cs" />
+    <Compile Include="RadarPing.cs" />
+    <Compile Include="RandomizePosition.cs" />
+    <Compile Include="SphericalObstacleData.cs" />
+    <Compile Include="SteerForAlignment.cs" />
+    <Compile Include="SteerForCohesion.cs" />
+    <Compile Include="SteerForEvasion.cs" />
+    <Compile Include="SteerForNeighborAvoidance.cs" />
+    <Compile Include="SteerForNeighbors.cs" />
+    <Compile Include="SteerForPoint.cs" />
+    <Compile Include="SteerForPursuit.cs" />
+    <Compile Include="SteerForSeparation.cs" />
+    <Compile Include="SteerForSphericalObstacleAvoidance.cs" />
+    <Compile Include="SteerForTarget.cs" />
+    <Compile Include="SteerForTether.cs" />
+    <Compile Include="SteerForWander.cs" />
+    <Compile Include="Steering.cs" />
+    <Compile Include="SteerToFollowPath.cs" />
+    <Compile Include="UnitySteer.Helpers\ITick.cs" />
+    <Compile Include="UnitySteer.Helpers\SteeringEvent.cs" />
+    <Compile Include="UnitySteer.Helpers\SteeringEventHandler.cs" />
+    <Compile Include="UnitySteer.Helpers\Tick.cs" />
+    <Compile Include="UnitySteer\AbstractProximityDatabase.cs" />
+    <Compile Include="UnitySteer\AbstractTokenForProximityDatabase.cs" />
+    <Compile Include="UnitySteer\BruteForceProximityDatabase.cs" />
+    <Compile Include="UnitySteer\locationQueryDatabase.cs" />
+    <Compile Include="UnitySteer\lqBin.cs" />
+    <Compile Include="UnitySteer\lqClientProxy.cs" />
+    <Compile Include="UnitySteer\LQProximityDatabase.cs" />
+    <Compile Include="UnitySteer\mapReturnStruct.cs" />
+    <Compile Include="UnitySteer\Obstacle.cs" />
+    <Compile Include="UnitySteer\ObstacleFactory.cs" />
+    <Compile Include="UnitySteer\OpenSteerUtility.cs" />
+    <Compile Include="UnitySteer\Pathway.cs" />
+    <Compile Include="UnitySteer\PolylinePathway.cs" />
+    <Compile Include="UnitySteer\SimpleVehicle.cs" />
+    <Compile Include="UnitySteer\SphericalObstacle.cs" />
+    <Compile Include="UnitySteer\SteeringVehicle.cs" />
+    <Compile Include="UnitySteer\SteerLibrary.cs" />
+    <Compile Include="UnitySteer\tokenType.cs" />
+    <Compile Include="Vehicle.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

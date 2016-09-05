@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{88CEF2F9-979E-49D2-8DA7-01B143EE15C1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CharacterMotor.cs" />
+    <Compile Include="CharacterMotorJumping.cs" />
+    <Compile Include="CharacterMotorMovement.cs" />
+    <Compile Include="CharacterMotorMovingPlatform.cs" />
+    <Compile Include="CharacterMotorSliding.cs" />
+    <Compile Include="CharacterState.cs" />
+    <Compile Include="DragRigidbody.cs" />
+    <Compile Include="FPSInputController.cs" />
+    <Compile Include="FPSWalker.cs" />
+    <Compile Include="MouseOrbit.cs" />
+    <Compile Include="MovementTransferOnJump.cs" />
+    <Compile Include="PlatformInputController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmoothFollow.cs" />
+    <Compile Include="SmoothLookAt.cs" />
+    <Compile Include="ThirdPersonCamera.cs" />
+    <Compile Include="ThirdPersonController.cs" />
+    <Compile Include="TimedObjectDestructor.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

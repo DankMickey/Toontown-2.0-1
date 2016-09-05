@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{187FF7EA-66B4-4555-84F5-0308FBC7939E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="Assembly-CSharp-firstpass" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivateWall.cs" />
+    <Compile Include="AIoldStatus.cs" />
+    <Compile Include="AIStatus.cs" />
+    <Compile Include="AvoidWall.cs" />
+    <Compile Include="BlankStart.cs" />
+    <Compile Include="Bouncepad.cs" />
+    <Compile Include="Bouncer.cs" />
+    <Compile Include="CameraController.cs" />
+    <Compile Include="clickstart.cs" />
+    <Compile Include="clickstartWin.cs" />
+    <Compile Include="clockScript.cs" />
+    <Compile Include="DepthOfFieldEffect.cs" />
+    <Compile Include="DOFGui.cs" />
+    <Compile Include="DoodleCount.cs" />
+    <Compile Include="DoodleFlingerBot.cs" />
+    <Compile Include="DoodleFlingerOld.cs" />
+    <Compile Include="DoodleFree.cs" />
+    <Compile Include="EnemyAIStatus.cs" />
+    <Compile Include="EnemyBot.cs" />
+    <Compile Include="eyeballScript.cs" />
+    <Compile Include="Fire.cs" />
+    <Compile Include="guiBlank.cs" />
+    <Compile Include="guiStart.cs" />
+    <Compile Include="JetPackParticleController.cs" />
+    <Compile Include="Jumppad.cs" />
+    <Compile Include="LookAt.cs" />
+    <Compile Include="MissileLauncher.cs" />
+    <Compile Include="NeutralBot.cs" />
+    <Compile Include="PenWallControl.cs" />
+    <Compile Include="PetSpeed.cs" />
+    <Compile Include="plantAnim.cs" />
+    <Compile Include="PlayerAnimation.cs" />
+    <Compile Include="PlayerCollisions.cs" />
+    <Compile Include="PlayerController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rocket.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="ThirdPersonController.cs" />
+    <Compile Include="ThirdPersonPlayerAnimation.cs" />
+    <Compile Include="ThirdPersonStatus.cs" />
+    <Compile Include="toggleVisibility.cs" />
+    <Compile Include="TopDownClickWalker.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

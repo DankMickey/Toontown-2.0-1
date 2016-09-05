@@ -1,0 +1,249 @@
+; FBX 7.1.0 project file
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7100
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2016
+		Month: 6
+		Day: 25
+		Hour: 6
+		Minute: 38
+		Second: 38
+		Millisecond: 33
+	}
+	Creator: "Unity Studio by Chipicao"
+}
+
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",2.54
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1.0
+	}
+}
+
+Documents:  {
+	Count: 1
+	Document: 1234567890, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+References:  {
+}
+
+Definitions:  {
+	Version: 100
+	Count: 15
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 5
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 5
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 0
+	}
+	ObjectType: "Material" {
+		Count: 1
+	}
+	ObjectType: "Texture" {
+		Count: 1
+	}
+	ObjectType: "Video" {
+		Count: 1
+	}
+	ObjectType: "CollectionExclusive" {
+		Count: 0
+		PropertyTemplate: "FbxDisplayLayer" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Show", "bool", "", "",1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Deformer" {
+		Count: 0
+	}
+	ObjectType: "Pose" {
+		Count: 1
+	}
+}
+
+Objects:  {
+	NodeAttribute: 20104, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 10104, "Model::Main Camera", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.3079523,0.3245497,1.017791
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-171.3701,-1.237695,-180
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 10105, "Model::Cube", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.3189526,-0.02797651,-0.385264
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",2.4435,1.79184,0.1731683
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 20106, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 10106, "Model::Point light", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-1.374852,1.363559,2.353849
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-151.751,-23.77737,-94.4355
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 20107, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 10107, "Model::Point light", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-0.2386394,1.146376,3.085364
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",148.0386,-13.30901,-68.39837
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 20108, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 10108, "Model::GUItext", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-0.5,0.5,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Pose: 5123456789, "Pose::BIND_POSES", "BindPose" {
+		Type: "BindPose"
+		Version: 100
+		NbPoseNodes: 0
+	}
+	Material: 6060, "Material::back 1", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+		}
+	}
+	Texture: 7061, "Texture::t2_t_ara_spc_PlanetDoodleSky5", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::t2_t_ara_spc_PlanetDoodleSky5"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_0"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::t2_t_ara_spc_PlanetDoodleSky5"
+		FileName: "C:\Users\Macario Patrick\Desktop\Texture2D\t2_t_ara_spc_PlanetDoodleSky5 #061.dds"
+		RelativeFilename: "Texture2D\t2_t_ara_spc_PlanetDoodleSky5 #061.dds"
+	}
+	Video: 8061, "Video::t2_t_ara_spc_PlanetDoodleSky5", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\Macario Patrick\Desktop\Texture2D\t2_t_ara_spc_PlanetDoodleSky5 #061.dds"
+		}
+		FileName: "C:\Users\Macario Patrick\Desktop\Texture2D\t2_t_ara_spc_PlanetDoodleSky5 #061.dds"
+		RelativeFilename: "Texture2D\t2_t_ara_spc_PlanetDoodleSky5 #061.dds"
+	}
+}
+
+Connections:  {
+
+	;NodeAttribute::, Model::Main Camera
+	C: "OO",20104,10104
+
+	;Model::Main Camera, Model::RootNode
+	C: "OO",10104,0
+
+	;Model::Cube, Model::RootNode
+	C: "OO",10105,0
+
+	;NodeAttribute::, Model::Point light
+	C: "OO",20106,10106
+
+	;Model::Point light, Model::RootNode
+	C: "OO",10106,0
+
+	;NodeAttribute::, Model::Point light
+	C: "OO",20107,10107
+
+	;Model::Point light, Model::RootNode
+	C: "OO",10107,0
+
+	;NodeAttribute::, Model::GUItext
+	C: "OO",20108,10108
+
+	;Model::GUItext, Model::RootNode
+	C: "OO",10108,0
+
+	;Material::, Model::Cube
+	C: "OO",6060,10105
+
+	;Texture::, Material::back 1
+	C: "OP",7061,6060, "DiffuseColor"
+
+	;Video::t2_t_ara_spc_PlanetDoodleSky5, Texture::t2_t_ara_spc_PlanetDoodleSky5
+	C: "OO",8061,7061
+}

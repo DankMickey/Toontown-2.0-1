@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2E29F914-6427-43C5-9713-868A5B334B47}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asteroid.cs" />
+    <Compile Include="AsteroidBandGenerator.cs" />
+    <Compile Include="AsteroidDonutField.cs" />
+    <Compile Include="AsteroidField.cs" />
+    <Compile Include="Asterpinata.cs" />
+    <Compile Include="AstronautBehavior.cs" />
+    <Compile Include="Beam.cs" />
+    <Compile Include="BlueWhistle.cs" />
+    <Compile Include="BorderType.cs" />
+    <Compile Include="CamTracker.cs" />
+    <Compile Include="CandyCane.cs" />
+    <Compile Include="ChickenBeam.cs" />
+    <Compile Include="DaiserBarrel.cs" />
+    <Compile Include="Detonator Spray Helper.cs" />
+    <Compile Include="DetonatorTest.cs" />
+    <Compile Include="EggBeam.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="FaceCamera.cs" />
+    <Compile Include="FollowShip.cs" />
+    <Compile Include="GameController.cs" />
+    <Compile Include="GUICamera.cs" />
+    <Compile Include="GUIHandler.cs" />
+    <Compile Include="GUISnapTo.cs" />
+    <Compile Include="HighScores.cs" />
+    <Compile Include="JellbeanCapsule.cs" />
+    <Compile Include="Jellybean.cs" />
+    <Compile Include="Lolly.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="PowerUp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radar.cs" />
+    <Compile Include="Rocket.cs" />
+    <Compile Include="Ship.cs" />
+    <Compile Include="ShipCollderHit.cs" />
+    <Compile Include="ShipMoveForward.cs" />
+    <Compile Include="SpaceLipsBean.cs" />
+    <Compile Include="StarField.cs" />
+    <Compile Include="StarPinata.cs" />
+    <Compile Include="TravellingSphere.cs" />
+    <Compile Include="TravellingSphere1.cs" />
+    <Compile Include="WindshieldCollision.cs" />
+    <Compile Include="WorldEdgeAddForceLeft.cs" />
+    <Compile Include="WorldEdgeAddForceRight.cs" />
+    <Compile Include="WorldEdgeAddForceUp.cs" />
+    <Compile Include="WorldEdgeKillAsteroid.cs" />
+    <Compile Include="WorldEdges.cs" />
+    <Compile Include="YellowCandySparkle.cs" />
+    <Compile Include="YellowHardCandy.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

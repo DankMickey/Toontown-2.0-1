@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B614DD6B-3A0F-4FC4-BC71-D4D7CDBF5FA8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Detonator.cs" />
+    <Compile Include="DetonatorBurstEmitter.cs" />
+    <Compile Include="DetonatorCloudRing.cs" />
+    <Compile Include="DetonatorComponent.cs" />
+    <Compile Include="DetonatorConfetti.cs" />
+    <Compile Include="DetonatorFireball.cs" />
+    <Compile Include="DetonatorForce.cs" />
+    <Compile Include="DetonatorGlow.cs" />
+    <Compile Include="DetonatorHeatwave.cs" />
+    <Compile Include="DetonatorLight.cs" />
+    <Compile Include="DetonatorShockwave.cs" />
+    <Compile Include="DetonatorSmoke.cs" />
+    <Compile Include="DetonatorSound.cs" />
+    <Compile Include="DetonatorSparks.cs" />
+    <Compile Include="DetonatorSpray.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

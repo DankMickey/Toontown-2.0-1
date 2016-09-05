@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6F3782C4-0193-4E04-BC69-C161F4B70DE1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>282e0aa3baa97b048ac36c2570e9a909</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="69c49029671db574a8c4c6f0d458017b" />
+    <Reference Include="UnityScript.Lang" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aiCog.cs" />
+    <Compile Include="AnimInfo.cs" />
+    <Compile Include="AnvilDropTriggerScript.cs" />
+    <Compile Include="AudioController.cs" />
+    <Compile Include="AutoWayPoint.cs" />
+    <Compile Include="BangAnvilAudio.cs" />
+    <Compile Include="billboard.cs" />
+    <Compile Include="BlankStart.cs" />
+    <Compile Include="bouncing.cs" />
+    <Compile Include="BubbleBehaviour.cs" />
+    <Compile Include="BubbleGen.cs" />
+    <Compile Include="CallPet.cs" />
+    <Compile Include="CameraController.cs" />
+    <Compile Include="clickstart.cs" />
+    <Compile Include="cogAttack.cs" />
+    <Compile Include="cogdoAanim.cs" />
+    <Compile Include="CollisionCheck.cs" />
+    <Compile Include="CollisionParticleEffect.cs" />
+    <Compile Include="CollisionSoundEffect.cs" />
+    <Compile Include="coloranim.cs" />
+    <Compile Include="CPN_CogPinataControl.cs" />
+    <Compile Include="CSP_ClothesShopBuildingControl.cs" />
+    <Compile Include="DepthOfFieldEffect.cs" />
+    <Compile Include="Detonator Spray Helper.cs" />
+    <Compile Include="DetonatorTest.cs" />
+    <Compile Include="DOFGui.cs" />
+    <Compile Include="EdgeDetectEffectNormals.cs" />
+    <Compile Include="eyeballScript.cs" />
+    <Compile Include="Fear.cs" />
+    <Compile Include="FollowLogic.cs" />
+    <Compile Include="Foot.cs" />
+    <Compile Include="fountainwater.cs" />
+    <Compile Include="FunkyGlowingThingsEffect.cs" />
+    <Compile Include="GlowLookAt.cs" />
+    <Compile Include="GS_BoxTriggerActions.cs" />
+    <Compile Include="GS_FPSWalker.cs" />
+    <Compile Include="GS_PlayerTriggerActions.cs" />
+    <Compile Include="GS_RandomAnim.cs" />
+    <Compile Include="guiBlank.cs" />
+    <Compile Include="guiStart.cs" />
+    <Compile Include="HonkHornTriggerScript.cs" />
+    <Compile Include="hypnoOwl.cs" />
+    <Compile Include="IdleLogic.cs" />
+    <Compile Include="LookAt.cs" />
+    <Compile Include="MainMenuBtns.cs" />
+    <Compile Include="MouseOrbit.cs" />
+    <Compile Include="MUS_CymbalControl.cs" />
+    <Compile Include="MUS_CymbalTrigger.cs" />
+    <Compile Include="MUS_MusicShopBuildingControl.cs" />
+    <Compile Include="MUS_PlayCymbal.cs" />
+    <Compile Include="ObjectRotator.cs" />
+    <Compile Include="OwlBehaviorScript.cs" />
+    <Compile Include="PetControlsMulti.cs" />
+    <Compile Include="PetSpeed.cs" />
+    <Compile Include="PetState.cs" />
+    <Compile Include="PET_LightBulbBehavior.cs" />
+    <Compile Include="PET_PetShopBuildingControl.cs" />
+    <Compile Include="PianoNotes.cs" />
+    <Compile Include="PinwheelInfo.cs" />
+    <Compile Include="PlayerAnimation.cs" />
+    <Compile Include="PlayerCharacter.cs" />
+    <Compile Include="PlayerCollisions.cs" />
+    <Compile Include="PlayerController.cs" />
+    <Compile Include="PowerSwitch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PWR_LightBulbBehavior.cs" />
+    <Compile Include="PWR_LightBulbSimpleBehavior.cs" />
+    <Compile Include="PWR_PinwheelControl.cs" />
+    <Compile Include="PWR_PlayerTriggerActions.cs" />
+    <Compile Include="PWR_PowerBuildingControl.cs" />
+    <Compile Include="RandomAnim.cs" />
+    <Compile Include="SmoothFollow.cs" />
+    <Compile Include="SmoothLookAt.cs" />
+    <Compile Include="StateDuration.cs" />
+    <Compile Include="states.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="StopEmittingAfterDelay.cs" />
+    <Compile Include="toggleVisibility.cs" />
+    <Compile Include="TopDownClickWalker.cs" />
+    <Compile Include="triggerCogBuilding.cs" />
+    <Compile Include="UVScroller.cs" />
+    <Compile Include="WanderLogic.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
